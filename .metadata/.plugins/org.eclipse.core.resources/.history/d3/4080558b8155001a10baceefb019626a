@@ -1,30 +1,29 @@
 import java.util.Arrays;
-
 public class ArraySimples {
 
 	public static void main(String[] args) {
-
+		
 //		int[] impares = new int[5];
 //		impares[0] = 1;
 //		impares[1] = 3;
 //		impares[2] = 5;
 //		impares[3] = 7;
 //		impares[4] = 9;
-
-		String[] paises = { "Brasil", "Russia", "India" };
+		
+		
+		String[] paises = {"Brasil", "Russia", "India"};
 		System.out.println(Arrays.toString(paises));
-
-		/* posicao array */
-		int posicao = Arrays.binarySearch(paises, "Russia");
+		
+		/*posicao array*/
+		int posicao = Arrays.binarySearch(paises,"Russia");
 		System.out.println(posicao);
-
+		
 		/**/
-		Arrays.sort(paises, 0, paises.length);
-		System.out.println(Arrays.toString(paises));
-
-		Double[] valores = { 12.35, 3456.3456 };
-
-		System.out.println(valores[1].doubleValue());
+		
+		
+		
+//		paises[0] = "Brazil";/*Altera o elemento da posicao zero*/
+//		System.out.println(paises[0]);
 
 	}
 

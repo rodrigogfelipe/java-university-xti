@@ -236,3 +236,87 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:36:35.143
 !MESSAGE executing callback sts4.classpath.YfZhvdtn SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2020-02-22 11:49:11.966
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:49:15.355
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YfZhvdtn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:49:15.387
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.YfZhvdtn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:49:15.398
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:49:15.410
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YfZhvdtn => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:08.285
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:08.303
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@35a1e240[org.springframework.tooling.boot.ls:1.13.0.201911200938(id=632)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:08.321
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:14.159
+!MESSAGE Boot LS startup time from start to initialized: 4916ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:14.378
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.dcEpprdRisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:14.533
+!MESSAGE subscribing to classpath changes: sts4.classpath.dcEpprdR isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:14.556
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:14.565
+!MESSAGE subsribers = {sts4.classpath.dcEpprdR=Send Classpath Notifications(228)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:14.572
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:14.582
+!MESSAGE project java-021-array ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:14.740
+!MESSAGE project java-020-array ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:14.752
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:14.760
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.dcEpprdR => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:14.773
+!MESSAGE Preparing classpath changed notification java-021-array
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:14.784
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:14.795
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:14.803
+!MESSAGE buffering callback sts4.classpath.dcEpprdR java-021-array false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:14.813
+!MESSAGE Preparing classpath changed notification java-020-array
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:14.821
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:14.855
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:14.923
+!MESSAGE buffering callback sts4.classpath.dcEpprdR java-020-array false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:14.939
+!MESSAGE executing callback sts4.classpath.dcEpprdR 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-22 11:50:15.003
+!MESSAGE executing callback sts4.classpath.dcEpprdR SUCCESS [done]

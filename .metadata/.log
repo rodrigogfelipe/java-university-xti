@@ -801,3 +801,123 @@ org.eclipse.core.runtime.AssertionFailedException: assertion failed:
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 12:41:11.336
 !MESSAGE executing callback sts4.classpath.AeIMTYIg SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:38:56.945
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.AeIMTYIg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:38:57.056
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.AeIMTYIg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:38:57.065
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:38:57.073
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.AeIMTYIg => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:09.264
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:09.281
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@16b5b185[org.springframework.tooling.boot.ls:1.13.0.201911200938(id=632)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:09.301
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:10.037
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:10.492
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@16b5b185[org.springframework.tooling.boot.ls:1.13.0.201911200938(id=632)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:10.722
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.452
+!MESSAGE Boot LS startup time from start to initialized: 4666ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.580
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lCQuZsEWisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.596
+!MESSAGE subscribing to classpath changes: sts4.classpath.lCQuZsEW isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.604
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.611
+!MESSAGE subsribers = {sts4.classpath.lCQuZsEW=Send Classpath Notifications(909)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.618
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.626
+!MESSAGE project java-025-desafioDosDados ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.634
+!MESSAGE project java-020-array ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.642
+!MESSAGE project java-021-array ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.651
+!MESSAGE project java-022-arrayList ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.659
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.667
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lCQuZsEW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.675
+!MESSAGE Preparing classpath changed notification java-025-desafioDosDados
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.686
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.699
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.710
+!MESSAGE buffering callback sts4.classpath.lCQuZsEW java-025-desafioDosDados false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.719
+!MESSAGE Preparing classpath changed notification java-020-array
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.726
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.736
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.744
+!MESSAGE buffering callback sts4.classpath.lCQuZsEW java-020-array false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.752
+!MESSAGE Preparing classpath changed notification java-021-array
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.761
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.770
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.779
+!MESSAGE buffering callback sts4.classpath.lCQuZsEW java-021-array false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.786
+!MESSAGE Preparing classpath changed notification java-022-arrayList
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.794
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.802
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.810
+!MESSAGE buffering callback sts4.classpath.lCQuZsEW java-022-arrayList false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.818
+!MESSAGE executing callback sts4.classpath.lCQuZsEW 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-24 13:40:15.875
+!MESSAGE executing callback sts4.classpath.lCQuZsEW SUCCESS [done]
